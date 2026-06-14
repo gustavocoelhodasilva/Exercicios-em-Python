@@ -1,0 +1,6 @@
+nome = input("Digite seu nome completo:")
+print(nome.upper())
+print(nome.lower())
+print(f"quantidade de caracteres sem espaços {len(nome.strip())}")
+lista = nome.split()
+print(f"quantidade de letras no primeiro nome: {len(lista[0])}")
