@@ -1,7 +1,7 @@
 import os
 
 # Cole aqui o caminho completo da sua pasta existente
-caminho_da_pasta = r"D:\PYTHON\CURSO EM VIDEO mundo 2"
+caminho_da_pasta = r"/home/lenovo/Documentos/Exercicios-em-Python/MUNDO 4/"
 
 # 1. APAGA OS ARQUIVOS ANTERIORES (do 006 ao 036) PARA LIMPAR A PASTA
 for i in range(6, 37):
