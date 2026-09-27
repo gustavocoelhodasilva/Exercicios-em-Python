@@ -15,11 +15,11 @@ class Churrasco:
 
 
         caixa = Panel(f"Analizando [green]{self.nome}[/green] com [blue]{self.pessoas} Convidados[/] \n"
-                      f"Cada pessoa consumira {self.consumo} de carne e cada kg custa {self.preco:.2f}Kg\n"
+                      f"Cada pessoa consumira {self.consumo} de carne e cada kg custa {self.preco:.2f}R$\n"
                       f"Recomendo [blue]{total_carne:.1f}kg[/] de carne\n"
                       f"O custo total será de [green]{total_custo:.2f}R$[/]\n"
                       f"Cada pessoa deverá pagar [green]{total_pagar:.2f}R$[/]", title=f"{self.nome}",width=100)
         print(caixa)
 
-c = Churrasco("Churras brabo",100000)
+c = Churrasco("Churras cu",5)
 c.analisar()
